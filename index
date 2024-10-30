@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Customer Driven</title>
+    <style>
+        /* Reset some default styling */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px 20px;
+            background-color: #fff;
+        }
+
+        header .logo {
+            font-size: 24px;
+            color: #1e90ff; /* Blue color for 'Customer' */
+        }
+
+        header .logo span {
+            color: #000; /* Black color for 'Driven' */
+        }
+
+        header nav a {
+            margin-left: 20px;
+            color: #333;
+            text-decoration: none;
+        }
+
+        .contact-button {
+            background-color: #ff6a00;
+            color: #fff;
+            padding: 10px 15px;
+            border-radius: 5px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        /* Hero section */
+        .hero {
+            position: relative;
+            text-align: center;
+            color: #333;
+            padding: 50px 20px;
+            background-image: url('https://via.placeholder.com/1200x600'); /* Placeholder image URL */
+            background-size: cover;
+            background-position: center;
+        }
+
+        .hero .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(255, 255, 255, 0.8);
+            z-index: 1;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            display: inline-block;
+            max-width: 600px;
+            margin-top: 50px;
+        }
+
+        .hero-content h1 {
+            font-size: 40px;
+            font-weight: bold;
+            line-height: 1.2;
+        }
+
+        .hero-content h1 .highlight {
+            color: #1e90ff;
+        }
+
+        /* Footer message */
+        .footer-message {
+            background-color: #6e93a0;
+            padding: 20px;
+            text-align: center;
+            color: #fff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <div class="logo">
+            Customer<span>Driven</span>
+        </div>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#blog">Blog</a>
+            <a href="#contact">Contact</a>
+            <a href="tel:1300724524" class="contact-button">1300 724 524</a>
+        </nav>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="overlay"></div>
+        <div class="hero-content">
+            <h1>CREATING <br> CUSTOMER EXPERIENCE <br> <span class="highlight">HEROES</span></h1>
+        </div>
+    </section>
+
+    <!-- Footer Message Section -->
+    <div class="footer-message">
+        Asia Pacific's Most Trusted Advisor in Customer Experience and Service Operations
+    </div>
+
+</body>
+</html>
